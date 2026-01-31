@@ -1,9 +1,6 @@
-import type { Metadata } from "next";
+"use client";
 
-export const metadata: Metadata = {
-  title: "Privacy Policy - LooksMaxPlus.ai",
-  description: "Privacy Policy for LooksMaxPlus.ai",
-};
+import React from "react";
 
 export default function PrivacyPolicy() {
   return (
