@@ -7,81 +7,130 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicy() {
   return (
-    <div className="bg-brand-light text-brand-dark min-h-screen font-sans">
+    <div className="bg-black text-white min-h-screen font-sans">
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-extrabold mb-6">Privacy Policy</h1>
-          <p className="mb-4">Last Updated: June 25, 2025</p>
+          <div className="mb-8">
+            <a href="/" className="text-blue-400 font-bold text-lg hover:underline">
+              ← Back
+            </a>
+          </div>
 
-          <p className="mb-6">
-            We know that how we collect, use, exchange and protect your information is important to you, and we value your trust. Our Privacy Policy outlines how we do this. It covers:
-          </p>
-          <ul className="list-disc list-inside mb-6 space-y-2">
-            <li>Information we collect</li>
-            <li>How we use your information</li>
-            <li>Who we may exchange your information with</li>
-            <li>How we keep your information secure</li>
-            <li>How you can access, update and correct your information</li>
-            <li>How you can make a complaint about misuse of your information</li>
-          </ul>
+          <h1 className="text-4xl font-bold mb-2 text-center">Privacy Policy</h1>
+          <p className="text-gray-400 text-center mb-10">Last Updated: January 2025</p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">1. About this policy</h2>
-          <p className="mb-6">
-            This privacy policy outlines the personal information handling practices of LooksMaxPlus.ai (‘we’, ‘us’ or ‘our’). We will update this privacy policy when our information handling practices change.
-          </p>
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">Introduction</h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              LooksMax Plus ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and protect your information when you use our facial analysis app.
+            </p>
+          </section>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">2. Collection and storage of your personal information</h2>
-          <h3 className="text-xl font-semibold mt-6 mb-2">2.1. Why do we collect your personal information?</h3>
-          <p className="mb-6">
-            To provide you with our free PDF guide and to send you related marketing communications and information about our products and services. We only collect the information we need to provide these services to you.
-          </p>
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">Data We Collect</h2>
+            
+            <h3 className="text-xl font-bold text-blue-400 mt-6 mb-2">Photos</h3>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              When you upload or take photos for facial analysis, these images are processed locally on your device and sent to our secure servers for AI analysis. Photos are used solely for analysis purposes and are not stored permanently.
+            </p>
 
-          <h3 className="text-xl font-semibold mt-6 mb-2">2.2. What personal information do we collect and store?</h3>
-          <p className="mb-6">
-            When you sign up to receive our PDF, the information we collect and store includes your name (first and last) and your email address.
-          </p>
+            <h3 className="text-xl font-bold text-blue-400 mt-6 mb-2">Facial Measurements</h3>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              We extract facial landmark coordinates, measurements, and ratios using MediaPipe technology. This data is processed to provide analysis results and may be temporarily stored locally on your device.
+            </p>
 
-          <h3 className="text-xl font-semibold mt-6 mb-2">2.3. How do we collect personal information?</h3>
-          <p className="mb-2">
-            <strong>Direct collection:</strong> We collect your information when you fill out the form on our website to receive our PDF guide.
-          </p>
-          <p className="mb-6">
-            <strong>Cookies:</strong> We may use cookies (small text files stored in your browser) and other techniques to help us understand how you use our website. This helps us research our users' habits so that we can improve our online products and services. You can set your browser to refuse cookies, but this may affect the functionality of our site.
-          </p>
+            <h3 className="text-xl font-bold text-blue-400 mt-6 mb-2">Analysis History</h3>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Your analysis results, ratings, and timestamps are stored locally on your device. This allows you to review your previous analyses and track progress over time.
+            </p>
+          </section>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">3. What if you don't provide us with your personal information?</h2>
-          <p className="mb-6">
-            If you don't provide your personal information to us, we will not be able to send you the PDF guide or let you know about other products and services that might be useful to you.
-          </p>
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">Third-Party Services</h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              We use the following third-party services to provide our analysis features:
+            </p>
+            <ul className="list-disc list-inside text-gray-300 space-y-2 mb-4 ml-4">
+              <li>xAI (Grok): For AI-powered facial analysis and attractiveness ratings</li>
+              <li>Perfect Corp YCE: For virtual hairstyle generation</li>
+              <li>Google MediaPipe: For facial landmark detection (processed locally)</li>
+            </ul>
+            <p className="text-gray-300 leading-relaxed italic">
+              These services receive your photos only for processing and do not retain them permanently.
+            </p>
+          </section>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">4. Disclosure</h2>
-          <p className="mb-2">
-            Your privacy and the protection of your personal information are very important to us. We do not sell or rent your personal information to other organizations.
-          </p>
-          <p className="mb-6">
-            We may disclose your information to our contracted technology service providers, such as those that host our website servers, manage our IT, or provide email marketing services. Our technology service providers (like our hosting provider Vercel or email providers) may store and process data in various countries. By using our services, you consent to the potential transfer of your information to these locations.
-          </p>
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">How We Use Your Data</h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Your data is used exclusively to:
+            </p>
+            <ul className="list-disc list-inside text-gray-300 space-y-2 mb-4 ml-4">
+              <li>Provide facial analysis and attractiveness ratings</li>
+              <li>Generate personalized improvement recommendations</li>
+              <li>Enable virtual hairstyle try-on features</li>
+              <li>Store your analysis history locally for review</li>
+            </ul>
+          </section>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">5. Security of your personal information</h2>
-          <p className="mb-6">
-            The security of your personal information is a high priority for us. We take reasonable steps to protect it from misuse, interference and loss, and from unauthorised access, modification or disclosure. We utilize reputable third-party services that have their own robust security measures, including data encryption and firewalls.
-          </p>
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">Data Storage and Security</h2>
+            <ul className="list-disc list-inside text-gray-300 space-y-2 mb-4 ml-4">
+              <li>All analysis history and measurements are stored locally on your device only</li>
+              <li>Photos are not permanently stored on our servers</li>
+              <li>We implement industry-standard security measures to protect data in transit</li>
+              <li>No personal data is shared with advertisers or third parties for marketing purposes</li>
+            </ul>
+          </section>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">6. Direct Marketing</h2>
-          <p className="mb-6">
-            We will send you direct marketing communications and information about our products and services. We will always let you know that you can opt-out from receiving our marketing offers and will provide an easy way to do so, such as an "unsubscribe" link in our emails.
-          </p>
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">Your Rights</h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              You have the right to:
+            </p>
+            <ul className="list-disc list-inside text-gray-300 space-y-2 mb-4 ml-4">
+              <li>Access all data stored on your device</li>
+              <li>Delete all your data at any time (see below)</li>
+              <li>Opt out of data processing by uninstalling the app</li>
+              <li>Contact us with privacy concerns</li>
+            </ul>
+          </section>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">7. Accessing and correcting your personal information</h2>
-          <p className="mb-6">
-            You have the right to ask for access to the personal information that we hold about you and to ask that we correct it if it's inaccurate. You can ask for access or correction by contacting us (see section 8). We will ask you to verify your identity before we give you access to your information or correct it.
-          </p>
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              If you have any questions about this privacy policy or our data practices, please contact us at:
+            </p>
+            <a href="mailto:adrian@helpllaround.com" className="text-blue-400 underline text-lg">
+              adrian@helpllaround.com
+            </a>
+          </section>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4">8. How to make an enquiry or a complaint</h2>
-          <p className="mb-6">
-            If you have an enquiry or a complaint about how we handle your personal information, please contact us at: <a href="mailto:privacy@looksmaxplus.ai" className="text-brand-pink hover:underline">privacy@looksmaxplus.ai</a>. We are committed to resolving your complaint and doing the right thing by our users. If you still feel your issue hasn't been resolved, you can raise your concern with the relevant data protection authority in your jurisdiction.
-          </p>
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">Delete Your Data</h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              You can delete all your stored data at any time. This will permanently remove:
+            </p>
+            <ul className="list-disc list-inside text-gray-300 space-y-2 mb-6 ml-4">
+              <li>All facial analysis history</li>
+              <li>Cached measurement images</li>
+              <li>Stored facial measurements</li>
+              <li>Any locally saved analysis results</li>
+            </ul>
+            
+            <div className="flex justify-center mb-10">
+              <button 
+                className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full transition-colors"
+                onClick={() => alert('Data deletion is handled within the mobile app.')}
+              >
+                Delete All My Data
+              </button>
+            </div>
 
+            <p className="text-gray-500 text-xs italic text-center leading-relaxed">
+              This app is for entertainment and educational purposes only. Results should not be considered medical or professional advice.
+            </p>
+          </section>
         </div>
       </main>
     </div>
