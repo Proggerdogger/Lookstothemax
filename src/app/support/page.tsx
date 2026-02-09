@@ -81,9 +81,9 @@ export default function Support() {
             </p>
             <p className="text-gray-300 leading-relaxed mb-2">
               <span className="font-bold text-white">Email: </span>
-              <a href="mailto:adrian@helpallround.com" className="text-blue-400 underline">
-                adrian@helpallround.com
-              </a>
+              <span className="text-gray-300">
+                adrian [at] helpallround [dot] com
+              </span>
             </p>
             <p className="text-gray-300 leading-relaxed mt-4">
               When contacting me, please include your device model (e.g., iPhone 15, Samsung S23) and a description of what you were doing when the issue occurred.
