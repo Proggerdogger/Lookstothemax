@@ -7,9 +7,9 @@ export default function Home() {
 
   return (
     <div className="bg-black text-white min-h-screen font-mono flex flex-col items-center justify-center p-4 text-center overflow-hidden relative">
-      <div className="fixed top-6 z-50 flex items-center gap-3">
+      <div className="fixed top-6 left-6 z-50 flex items-center gap-4">
         <span
-          className={`text-sm font-bold transition-colors duration-300 ${
+          className={`text-xl font-bold transition-colors duration-300 ${
             isFun ? "text-yellow-400" : "text-gray-600"
           }`}
         >
@@ -17,21 +17,21 @@ export default function Home() {
         </span>
         <button
           onClick={() => setIsFun(!isFun)}
-          className="relative w-14 h-7 rounded-full transition-colors duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 cursor-pointer"
+          className="relative w-28 h-14 rounded-full transition-colors duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 cursor-pointer"
           style={{
             backgroundColor: isFun ? "#facc15" : "#6366f1",
           }}
           aria-label={`Switch to ${isFun ? "serious" : "fun"} mode`}
         >
           <div
-            className="absolute top-0.5 w-6 h-6 bg-white rounded-full shadow-md transition-transform duration-300"
+            className="absolute top-1 w-12 h-12 bg-white rounded-full shadow-md transition-transform duration-300"
             style={{
-              transform: isFun ? "translateX(2px)" : "translateX(30px)",
+              transform: isFun ? "translateX(4px)" : "translateX(60px)",
             }}
           />
         </button>
         <span
-          className={`text-sm font-bold transition-colors duration-300 ${
+          className={`text-xl font-bold transition-colors duration-300 ${
             !isFun ? "text-indigo-400" : "text-gray-600"
           }`}
         >
