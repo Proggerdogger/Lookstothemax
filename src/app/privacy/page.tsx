@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
           </div>
 
           <h1 className="text-4xl font-bold mb-2 text-center">Privacy Policy</h1>
-          <p className="text-gray-400 text-center mb-10">Last Updated: January 2025</p>
+          <p className="text-gray-400 text-center mb-10">Last Updated: March 2026</p>
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Introduction</h2>
@@ -58,15 +58,29 @@ export default function PrivacyPolicy() {
           </section>
 
           <section className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">Advertising & Tracking</h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              We use advertising measurement to show you relevant ads and improve our marketing. This involves collecting limited data about how you interact with ads and our app to measure campaign effectiveness.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              On iOS, you will be prompted to allow tracking via Apple&apos;s App Tracking Transparency framework. You can allow or deny this request, and you can change your choice at any time in your device&apos;s Settings under Privacy &amp; Security → Tracking.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              If you decline tracking, you will still see ads, but they may be less relevant to you. Declining tracking does not affect the core functionality of the app — facial analysis, ratings, and recommendations work the same regardless of your tracking preference.
+            </p>
+          </section>
+
+          <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">How We Use Your Data</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Your data is used exclusively to:
+              Your data is used to:
             </p>
             <ul className="list-disc list-inside text-gray-300 space-y-2 mb-4 ml-4">
               <li>Provide facial analysis and attractiveness ratings</li>
               <li>Generate personalized improvement recommendations</li>
               <li>Enable virtual hairstyle try-on features</li>
               <li>Store your analysis history locally for review</li>
+              <li>Measure advertising effectiveness and show relevant ads</li>
             </ul>
           </section>
 
@@ -76,7 +90,7 @@ export default function PrivacyPolicy() {
               <li>All analysis history and measurements are stored locally on your device only</li>
               <li>Photos are not permanently stored on our servers</li>
               <li>We implement industry-standard security measures to protect data in transit</li>
-              <li>No personal data is shared with advertisers or third parties for marketing purposes</li>
+              <li>Limited advertising measurement data may be collected to improve ad relevance (see Advertising &amp; Tracking above)</li>
             </ul>
           </section>
 
@@ -88,7 +102,8 @@ export default function PrivacyPolicy() {
             <ul className="list-disc list-inside text-gray-300 space-y-2 mb-4 ml-4">
               <li>Access all data stored on your device</li>
               <li>Delete all your data at any time (see below)</li>
-              <li>Opt out of data processing by uninstalling the app</li>
+              <li>Opt out of ad tracking at any time via your device Settings</li>
+              <li>Opt out of all data processing by uninstalling the app</li>
               <li>Contact us with privacy concerns</li>
             </ul>
           </section>
