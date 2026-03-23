@@ -51,7 +51,7 @@ export default function Home() {
 function FunContent() {
   return (
     <>
-      <div className="absolute top-10 left-10 text-yellow-400 text-2xl animate-bounce opacity-50">wow</div>
+      <div className="absolute top-24 left-10 text-yellow-400 text-2xl animate-bounce opacity-50">wow</div>
       <div className="absolute top-20 right-20 text-pink-400 text-3xl animate-pulse opacity-40">so aesthetic</div>
       <div className="absolute bottom-20 left-1/4 text-blue-400 text-xl animate-bounce opacity-60">very handsome</div>
       <div className="absolute top-1/3 right-10 text-green-400 text-2xl animate-pulse opacity-50">much jawline</div>
