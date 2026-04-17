@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 export default function Home() {
-  const [isFun, setIsFun] = useState(true);
+  const [isFun, setIsFun] = useState(false);
 
   return (
     <div className="bg-black text-white min-h-screen font-mono flex flex-col items-center justify-center p-4 text-center overflow-hidden relative">
