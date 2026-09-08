@@ -25,8 +25,4 @@ export default [
       },
     },
   },
-<<<<<<< HEAD
 ];
-=======
-];
->>>>>>> a0c6c3d0f518fa5589fffc5f0ba897cf5e603285
