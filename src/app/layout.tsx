@@ -3,6 +3,7 @@ import { Fraunces, Source_Sans_3 } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MoneyBackground from "@/components/MoneyBackground";
+import { siteDescription, siteName, siteUrl } from "@/lib/site";
 import "./globals.css";
 
 const serif = Fraunces({
@@ -18,12 +19,23 @@ const sans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
-    default: "I LOVE MONEY LTD",
-    template: "%s · I LOVE MONEY LTD",
+    default: siteName,
+    template: `%s · ${siteName}`,
   },
-  description:
-    "I LOVE MONEY LTD is a UK software publishing company. Company number 17446881. Registered in England and Wales.",
+  description: siteDescription,
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: siteName,
+    description: siteDescription,
+    url: siteUrl,
+    siteName,
+    locale: "en_GB",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
