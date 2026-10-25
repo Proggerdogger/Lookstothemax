@@ -8,6 +8,12 @@ export default function Header() {
           I LOVE MONEY LTD
         </Link>
         <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted">
+          <Link href="/#nitro" className="text-gold hover:text-ink">
+            Nitro
+          </Link>
+          <Link href="/#founder" className="hover:text-ink">
+            Founder
+          </Link>
           <Link href="/#what-we-do" className="hover:text-ink">
             What we do
           </Link>

@@ -6,6 +6,7 @@ export default function Footer() {
       <div className="mx-auto max-w-5xl px-6 py-10 text-sm text-muted">
         <p className="font-serif text-base text-ink">I LOVE MONEY LTD</p>
         <p className="mt-3 max-w-xl leading-relaxed">
+          Publisher of Nitro: AI Car &amp; Video. Founded by Adrian Smark.
           Private limited company registered in England and Wales. Company
           number 17446881. Registered office: 71-75 Shelton Street, Covent
           Garden, London, WC2H 9JQ, United Kingdom.

@@ -19,11 +19,11 @@ const sans = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: {
-    default: "I LOVE MONEY LTD",
+    default: "Nitro: AI Car & Video · I LOVE MONEY LTD",
     template: "%s · I LOVE MONEY LTD",
   },
   description:
-    "I LOVE MONEY LTD is a UK software publishing company. Company number 17446881. Registered in England and Wales.",
+    "Nitro: AI Car & Video lets you design your dream car with AI and turn it into a video reel. Published by I LOVE MONEY LTD, a UK software company founded by Adrian Smark. Company number 17446881.",
 };
 
 export default function RootLayout({
